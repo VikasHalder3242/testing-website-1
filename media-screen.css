@@ -1,0 +1,255 @@
+@media only screen and (min-width:771px) and (max-width: 1050px){
+    .small-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .first-section {
+        width: auto;
+    }
+    .form {
+        width: 35vw;
+    }
+    .second-section {
+        width: 78vw;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 770px){
+    .container h1 {
+        font-size: 2.6em;
+    }
+    .container h3{
+        font-size: 1.3em;
+    }
+    .btn-2{
+        font-size: 0.9em;
+    }
+    .small-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    .first-section {
+        width: auto;
+        grid-template-columns: 1fr;
+    }
+    .join-text {
+        width: auto;
+    }
+    .form{
+        width: 67vw;
+    }
+    .form form label {
+        margin-bottom: 0.5em;
+    }
+    .second-section {
+        width: 80vw;
+    }
+    #email{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .btn-5 {
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 1em;
+    }
+    footer{
+        padding: 0px;
+    }
+    .foot{
+        width: auto;
+        margin: 0px 5px;
+        place-items: center;
+    }
+    .foot h2{
+        font-size: 1.1em;
+    }
+    .icons .fa{
+        font-size: 1.5em;
+    }
+    .icons .fa:hover{
+        font-size: 1.6em;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 499px){
+    .right ul{
+        flex-flow: row wrap;
+    }
+    main{
+        width: auto;
+        padding: 30px 10px;
+        margin: 5px auto 40px auto;
+    }
+    .container{
+        margin: 2em 0em;
+        width: 85vw;
+        margin: auto;
+    }
+    .container h1 {
+        font-size: 2.6em;
+        padding: 10px;
+    }
+    .container h3{
+        font-size: 1.3em;
+        padding: 8px;
+    }
+    .btn-2{
+        font-size: 0.9em;
+        width: 50vw;
+    }
+    .heading{
+        width: 85vw;
+        margin: 10px auto;
+        flex-flow: column wrap;
+    }
+    .logo2-date {
+        margin: 0px;
+    }
+    .small-container{
+        grid-template-columns: 1fr;
+        gap: 1em;
+        width: 85vw;
+        margin: auto;
+    }
+    section{
+        padding: 0px;
+    }
+    .first-section {
+        width: auto;
+        grid-template-columns: 1fr;
+        padding: 25px 10px;
+    }
+    .join-text {
+        width: auto;
+    }
+    .form{
+        width: 82vw;
+    }
+    .form form label {
+        margin-bottom: 0.5em;
+    }
+    .second-section {
+        padding: 30px 20px;
+        width: 90vw;
+    }
+    #email{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .btn-5 {
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 1em;
+    }
+    footer{
+        padding: 0px;
+    }
+    .foot{
+        width: auto;
+        margin: 0px 5px;
+        place-items: center;
+    }
+    .foot h2{
+        font-size: 1.1em;
+    }
+    .icons .fa{
+        font-size: 1.5em;
+    }
+    .icons .fa:hover{
+        font-size: 1.6em;
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 299px){
+    .right ul{
+        flex-flow: row wrap;
+    }
+    main{
+        width: auto;
+        padding: 30px 10px;
+        margin: 5px auto 40px auto;
+    }
+    .container{
+        margin: 2em 0em;
+        width: 85vw;
+        margin: auto;
+    }
+    .container h1 {
+        font-size: 2.6em;
+        padding: 10px;
+    }
+    .container h3{
+        font-size: 1.3em;
+        padding: 8px;
+    }
+    .btn-2{
+        font-size: 0.9em;
+        width: 50vw;
+    }
+    .heading{
+        width: 85vw;
+        margin: 10px auto;
+        flex-flow: column wrap;
+    }
+    .logo2-date {
+        margin: 0px;
+        flex-flow: column wrap;
+        text-align: center;
+    }
+    .logo2-date h2 {
+        padding: 10px 2px 2px 5px;
+        margin: 15px 1px 2px 5px;
+    }
+    .small-container{
+        grid-template-columns: 1fr;
+        gap: 1em;
+        width: 85vw;
+        margin: auto;
+    }
+    section{
+        padding: 0px;
+    }
+    .first-section {
+        width: auto;
+        grid-template-columns: 1fr;
+        padding: 25px 10px;
+    }
+    .join-text {
+        width: auto;
+        margin: 0px;
+        padding: 20px 10px;
+    }
+    .form{
+        width: 82vw;
+    }
+    .form form label {
+        margin-bottom: 0.5em;
+    }
+    .second-section {
+        padding: 30px 15px;
+        width: 90vw;
+    }
+    #email{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .btn-5 {
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 1em;
+    }
+    footer{
+        padding: 0px;
+    }
+    .foot{
+        width: auto;
+        margin: 0px 5px;
+        place-items: center;
+    }
+    .foot h2{
+        font-size: 1.1em;
+    }
+    .icons .fa{
+        font-size: 1.5em;
+    }
+    .icons .fa:hover{
+        font-size: 1.6em;
+    }
+}
